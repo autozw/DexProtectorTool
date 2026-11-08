@@ -1,0 +1,17 @@
+# Minimal dependency closure for this tool's offline DEX reader.
+# Install with --no-deps; androguard's full CLI dependencies are intentionally omitted.
+pyelftools==0.27
+unicorn==2.1.3
+cryptography==45.0.6
+numpy==2.2.6
+zstandard==0.25.0
+androguard==4.1.3
+loguru==0.7.3
+apkInspector==1.3.6
+asn1crypto==1.5.1
+lxml==6.0.0
+mutf8==1.0.6
+cffi==1.17.1
+pycparser==2.22
+colorama==0.4.6
+win32-setctime==1.2.0; sys_platform == "win32"
